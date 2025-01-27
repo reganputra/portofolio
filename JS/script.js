@@ -39,3 +39,10 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, heading', { origin: 'top',});
 ScrollReveal().reveal('.home-img, .skill-container, .project-box', { origin: 'bottom' });
+
+const typed = new Typed('.multiple-text',{
+    strings: ['Student','and', 'Developer'],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true,
+});
